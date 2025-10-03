@@ -77,3 +77,18 @@ button {
 button:hover {
     background: #008552;
 }
+
+
+/*Tela de Cadastro*/
+.nome-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+.nome-box h2 {
+    margin-bottom: 20px;
+    color: #008552 ;
+}
