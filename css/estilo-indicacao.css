@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    background: #f4f4f9;
+    color: #abb1ad ;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(90deg, #000000 0%, #008552 100%);
+    height: 100vh;
+
+}
+
+.header h1 {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    color: #abb1ad;
+}
+
+.header hr {
+    margin-top: 20px;
+}
+
+.main{
+    margin-top: 10%;
+    padding-right: 20%;
+    padding-left: 10%;
+    
+}
+
+.link-area {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.link-input {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    flex: 1;
+    justify-items: center;
+    margin-left: 5px;
+}
+
+.link-input:hover {
+    color: #008552;
+    transition: 0.3s;
+}
+
+.copy {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ranking-text {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+    padding-left: 15%;
+}
+
+.premios-list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.step {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.step img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.step h4 {
+    margin: 5px 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.step p {
+    color: #fff;
+}
+
+.step button {
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #008552 ;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.step button:hover {
+    background-color: #1ce698;
+    color: #fff;
+}
